@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<!--CSS-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <title>Bootstrap 101 Template</title>
+  </head>
+  <body>
+    <img src="images/logo.png" class="img-responsive center-block" alt="logo">
+ 
+<!-- Navigation -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <ul class="nav navbar-nav">
+      <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="teas_home.html" class="dropdown-toggle active">Our Teas <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="green.html">Green Teas</a></li>
+            <li><a href="white.html">White Teas</a></li>
+            <li><a href="herb.html">Herbal Teas</a></li>
+            <li><a href="black.html">Black Teas</a></li></ul>
+      <li><a href="About.html">About Us</a></li>
+      <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+      
+<!-- Carousel -->
+<div class="container"> 
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+<!-- Wrapper for slides -->
+    <div class="carousel-inner">
+      <div class="item active">
+        <img src="images/IMG_9831_v3_jpg_1440x640.jpg" alt="teas1" style="width:100%;">
+      </div>
+    </div>
+  </div>
+</div>
+      
+      
+<!-- Our Picks -->      
+<section class="container-fluid" id="section1">
+  	<h1 class="text-center v-center">Types of Teas We Carry</h1>
+ 	
+  	<div class="container" id="teas">
+      <div class="row">
+          <div class="col-md-3">
+            <div class="row">
+                <div class="text-center"> <a href="green.html"><img src="images/Cherry_Blossom_Green.jpg" alt="teas_green" style="width:60%;"></a><h3 id="type">Green Tea</h3></div>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="row">
+              <div class="text-center"><a href="white.html"><img src="images/Candy_Apple_White.jpg" alt="teas_white" style="width:60%;"></a><h3 id="type">White Tea</h3></div>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="row">
+                <div class="text-center"><a href="herb.html"><img src="images/Ginger_Root_large%20(herb).jpg" alt="teas_herb" style="width:60%;"></a><h3 id="type">Herbal Tea</h3></div>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="row">
+                <div class="text-center"><a href="black.html"><img src="images/Blueberry_Fields_(black).jpg" alt="teas_herb" style="width:60%;"></a><h3 id="type">Black Tea</h3></div>
+            </div>
+          </div>
+      </div><!--/row-->
+    <div class="row"><br></div>
+  </div><!--/container-->
+</section>
+
+    
+
+<!-- fun fact-->
+<section class="container-fluid" id="section2">
+    <h1>Facts about tea</h1>
+     <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="Made from Camellia sinensis leaves.">
+  Green Tea
+</button>
+
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-trigger="hover" data-content="From the fine silvery-white hairs on the unopened buds of the tea plant.">
+  White Tea
+</button>
+
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Commonly known for being fruit fusion teas!">
+  Herb Tea
+</button>
+
+<button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="bottom" data-trigger="hover" data-content="Stong flavor and can be used as a pick my up!">
+  Black Tea
+</button> 
+
+</section>
+
+<!-- FOOTER -->
+<!-- FOOTER -->
+<footer id="footer">
+  <div class="container">
+    <div class="row" id="foot">    
+      <div class="col-xs-6 col-sm-6 col-md-3 column">          
+          <h4>Information</h4>
+          <p>TeaSpot Location: <br/> 2616 Peachtree St. <br/> Atlanta, GA 30313</p> 
+          <p>Phone: 404-271-1788 <br/> Email: info@myteaspot.com</p> 
+        </div>
+      <div class="col-xs-6 col-md-3 column">          
+          <h4>Follow Us</h4>
+          <ul class="nav">
+            <li><a href="https://www.twitter.com">Twitter</a></li>
+            <li><a href="https://www.facebook.com">Facebook</a></li>
+            <li><a href="https://plus.google.com/explore">Google+</a></li>
+            <li><a href="https://www.pinterest.com">Pinterest</a></li>
+          </ul> 
+      </div>
+      <div class="col-xs-6 col-md-3 column">          
+          <h4>Customer Service</h4>
+          <ul class="nav">
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms &amp; Conditions</a></li>
+          </ul> 
+      </div>
+        <div class="col-xs-6 col-md-3 column">          
+          <h4>Sign Up For Newsletter</h4>
+          <form action="#">
+              <div class="input-group">
+                 <input class="btn btn-lg" name="email" id="email" type="email" placeholder="Your Email" required>
+                 <button class="btn btn-info btn-lg" type="submit">Submit</button>
+                  <small class="promise"><em>We won't send spam.</em></small>
+              </div>
+             </form>
+      </div>
+    </div><!--/row-->
+  </div>
+</footer>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
