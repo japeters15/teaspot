@@ -131,7 +131,7 @@ button.btn.btn-secondary{
 /****** Footer ******/ 
 footer {
 	background-color:#ff561a;
-    color:#ddd;
+    color:white;
     min-height:100px;
     padding-top:20px;
     padding-bottom:40px;
@@ -139,7 +139,7 @@ footer {
 
 footer .nav>li>a {
     padding:3px;
-    color:#ccc;
+    color:black;
 }
 
 footer .nav>li>a:hover {
